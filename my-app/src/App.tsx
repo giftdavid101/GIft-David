@@ -1,11 +1,11 @@
-import React from 'react';
-import './App.css';
-import WIP from "./Pages/WIP";
+import React from "react";
+import "./App.css";
+import Nav from "./Components/organisms/nav";
 
 function App() {
   return (
     <div className="App">
-     <WIP />
+      <Nav />
     </div>
   );
 }
