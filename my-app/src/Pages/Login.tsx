@@ -1,18 +1,16 @@
 import React from "react";
+import styled from "styled-components";
 
 const Login = () => {
   return (
-    <div>
-      <h1>Login</h1>
-      <form onSubmit={() => ""}>
-        <label htmlFor={"email"}>Email: </label>
-        <input type={"email"} /> <br />
-        <label htmlFor={"password"}>Password: </label>
-        <input type={"password"} />
-        <br />
-      </form>
-    </div>
+    <LoginStyle>
+      <div>
+        <h1>Login Form</h1>
+      </div>
+    </LoginStyle>
   );
 };
+
+const LoginStyle = styled.div``;
 
 export default Login;
