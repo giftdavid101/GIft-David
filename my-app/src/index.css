@@ -8,6 +8,9 @@ img{
 
 body {
   font-family: 'Noto Sans Chakma', sans-serif;
+  background: #edeeed;
+  min-height: 100vh;
+
 }
 .emage-container{
   width: 100%;
